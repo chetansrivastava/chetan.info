@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech&display=swap');
+
+html {
+    background: #131419;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.wrapper{
+    position: absolute;
+    width: 650px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadein 6s;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.wrapper img{
+    width: 650px;
+    height: 350px;
+   
+}
+
+.wrapper .write{
+    position: relative;
+    top: -280px;
+    width: 300px;
+    height: 200px;
+    left: 60px;
+    color: #00FEFC;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.wrapper .write p span{
+    text-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,0 0 80px #2196f3;;
+}
+.wrapper .write img{
+    position: relative;
+    top: -240px;
+    width: 195px;
+    height: 195px;
+    left: 348px;
+    animation: none;
+}

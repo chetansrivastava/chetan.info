@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Neumorphism Login Form UI | IEEE SB</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta http-equiv="X-UA-Compatible " content="IE=Edge">
+</head>
+<body>
+
+<div class="content">
+	<div class="text">Login</div>
+
+	<form name="loginForm" method="post">
+		<div class="feild">
+			<input type="text" name="username" id="user" placeholder="Username">
+		</div>
+		<div class="feild">
+			<input type="password" name="password" id="pass"placeholder="Password">
+		</div>
+		<div class="forgot-pass">
+			<a href="#">Forgot Password?</a>
+		</div>
+		<button onclick="login(loginForm)" value="Login">Login</button>
+		<div class="signup-link">Not a Member?
+			<a href="#">Signup Now</a>
+		</div>
+	</form>
+	<script type="text/javascript">
+		function login(loginForm){
+			if(loginForm.user.value && loginForm.pass.value){ 
+				var username=document.getElementById("user").value;
+				document.write('<html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="leadstyle.css"><title>Matrix digital rain</title></head><body><div class="wrapper"><img src="IDCard2.jpg"><div class="write">')
+				document.write('Welcome')
+				document.write("   ")
+				document.write(username)
+				document.write("!")
+				document.write(' <audio autoplay><source src="back.mp3" type="audio/mpeg"></audio><p>This is the landing page after the login process. This project is made in regard to the submission for the IEEE SB club. My name is <span>Chetan Srivastava</span>. I have been involved with computers and cyber world since the age of 12. I have been diving and trying out different aspects and technologies but I have found particular interest in the <span>Cyber security</span>. Worked with Myntra for this and have done work for private clients. Reach out to me if you need to.</p><img src="re.jpg"></div></div><canvas id="Matrix"></canvas><scr'+'ipt type="text/javascript" src="index.js"></sc'+'ript></body></html>')
+			}
+			else
+				alert("Please Enter Your Credentials");
+		}
+	</script>
+</div>
+</body>
+</html>
